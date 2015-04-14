@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+}
+#content {
+	max-width: 948px;
+	margin: 0 auto;	
+}
+
+p {
+	color: black;
+	font-size: 24px;
+	font-family: Helvetica;
+}
