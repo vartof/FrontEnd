@@ -1,40 +1,72 @@
+/* General */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
-	font-family: 'Lato', sans-serif;
-	color: #747704;
-	font-weight: 300;
+    font: 300 12px "Lato", sans-serif;
+    color: #747704;
 }
 
-.text-muted {
-	color: #BCBBBB;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
 }
 
-.text-thin {
-	font-weight: 100;
+header,
+nav,
+footer,
+section,
+article,
+div {
+    box-sizing: border-box;
 }
 
-.title-super {
-	font-size: 55px;
-}
+/* Header */
 
-.title-large {
-	font-size: 33px;
-	font-weight: bold;
-}
-
-.title-medium {
-	font-size: 33px;
-	margin-left: 10px;
+.img-logo {
+    margin: 1em 0 0 0;
+    width: 100px;
+    height: 100px;
 }
 
 hr {
-	height: 5px;
-	border-top: 3px solid;
-	color: #BCBBBB;
+    border-top: 4px solid;
+    color: #bcbbbb;
 }
 
-.img-logo {
-	margin-top: 20px;
-	width: 100px;
-	height: 100px;
+
+/* Text */
+
+.text-muted {
+    color: #bcbbbb;
 }
+
+.text-thin {
+    font: 100 1em "Lato", sans-serif;
+}
+
+.title-super {
+    font: 4.5em "Lato", sans-serif;
+    padding: 0.25em 0 0 0;
+}
+
+.title-large {
+    font: bold 3em "Lato", sans-serif;
+}
+
+.title-medium {
+    font: 2.75em "Lato", sans-serif;
+    padding: 0.5em 0 0 0.25em;
+}
+
+
 
